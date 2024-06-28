@@ -1,0 +1,14 @@
+.image-size {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+}
+
+.father {
+  display: flex;
+  flex-direction: row;
+}
+
+.links  {
+  margin: 5px;
+}
