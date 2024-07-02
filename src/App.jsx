@@ -6,6 +6,7 @@ import { Draw3 } from './components/Draw3';
 import { Draw4 } from './components/Draw4';
 import { Draw5 } from './components/Draw5';
 import { Draw6 } from './components/Draw6';
+import { Navigation } from './components/Navigation';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path="/draw5" element = {<Draw5 />} />
         <Route path="/draw6" element = {<Draw6 />} />
       </Routes>
+      <Navigation />
      </BrowserRouter>
     </>
   )
