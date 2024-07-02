@@ -15,13 +15,16 @@ function App() {
   return (
     <>  
     <BrowserRouter>
+    <div>
+      <h1 id= "title" className='text-center my-3'> Proyecto Galería </h1>
+    </div>
       <Routes>
-        <Route path="/draw1" element = {<Draw1 />} />
-        <Route path="/draw2" element = {<Draw2 />} />
-        <Route path="/draw3" element = {<Draw3 />} />
-        <Route path="/draw4" element = {<Draw4 />} />
-        <Route path="/draw5" element = {<Draw5 />} />
-        <Route path="/draw6" element = {<Draw6 />} />
+        <Route path="/draw1" element = {<Draw1  className = 'image-size'/>} />
+        <Route path="/draw2" element = {<Draw2 className = 'image-size' />} />
+        <Route path="/draw3" element = {<Draw3 className = 'image-size'/>} />
+        <Route path="/draw4" element = {<Draw4 className = 'image-size'/>} />
+        <Route path="/draw5" element = {<Draw5 className = 'image-size'/>} />
+        <Route path="/draw6" element = {<Draw6 className = 'image-size'/>} />
       </Routes>
       <Navigation />
      </BrowserRouter>
