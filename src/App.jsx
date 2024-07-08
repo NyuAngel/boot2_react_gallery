@@ -18,6 +18,7 @@ function App() {
     <div>
       <h1 id= "title" className='text-center my-3'> Proyecto Galería </h1>
     </div>
+    <div id='main-img-container'className='container'>
       <Routes>
         <Route path="/draw1" element = {<Draw1  className = 'image-size'/>} />
         <Route path="/draw2" element = {<Draw2 className = 'image-size' />} />
@@ -26,7 +27,10 @@ function App() {
         <Route path="/draw5" element = {<Draw5 className = 'image-size'/>} />
         <Route path="/draw6" element = {<Draw6 className = 'image-size'/>} />
       </Routes>
+      </div>
+      <div className='container'>
       <Navigation />
+      </div>
      </BrowserRouter>
     </>
   )

@@ -1,18 +1,34 @@
+#main-img-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
 .image-size {
   width: 150px;
-  height: 150px;
+  height: 200px;
   border-radius: 5px;
+  overflow: hidden; /*Asegura que la imagen no se salga del contenerdor */
+  position: relative; /*Necesario para posicionar el figcaption */
+  margin: 0; /*Elimina cualquier margen  */
+  padding: 0; /* Elimina cualquier padding */
 }
 
 .father {
-  height: 150px;
+  height: 200px;  /* Ajusta la altura del contenedor para acomodar el texto */
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
 .links {
-  margin: 5px;
+  margin: 0;
+  padding: 0;
   text-decoration: none;
   color: white;
   text-align: center;
@@ -27,7 +43,7 @@
 
 .image-container {
   width: 100%;
-  height: 500px;
+  height: 950px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,17 +58,28 @@
 }
 
 figcaption {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   margin: 0;
-  padding: 5px;
+  padding: 0;
 }
 figure {
   justify-content: center;
-  height: 20%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   background: #373B44;  
   background: -webkit-linear-gradient(to right, #4286f4, #373B44);  
   background: linear-gradient(to right, #4286f4, #373B44); 
+  position: relative;
+  margin: 0;
+  padding: 0;
 }
 
 h1#title {
