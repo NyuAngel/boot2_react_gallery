@@ -7,7 +7,7 @@
 }
 
 .image-size {
-  width: 150px;
+  width: 200px;
   height: 200px;
   border-radius: 5px;
   overflow: hidden; /*Asegura que la imagen no se salga del contenerdor */
@@ -17,7 +17,7 @@
 }
 
 .father {
-  height: 200px;  /* Ajusta la altura del contenedor para acomodar el texto */
+  height: 250px;  /* Ajusta la altura del contenedor para acomodar el texto */
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -27,7 +27,7 @@
 }
 
 .links {
-  margin: 0;
+  margin: 5px;
   padding: 0;
   text-decoration: none;
   color: white;
@@ -58,20 +58,19 @@
 }
 
 figcaption {
-  height: 30px;
+  height: 0px;
   display: flex;
   align-items: center;
   background-color: rgba(0,0,0,0.5);
   color: white;
-  position: absolute;
+  position: ;
   bottom: 0;
-  width: 100%;
   margin: 0;
-  padding: 0;
+  padding: 25px;
 }
 figure {
   justify-content: center;
-  height: 100%;
+  height: 20%;
   display: flex;
   flex-direction: column;
   background: #373B44;  
