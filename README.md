@@ -54,7 +54,7 @@ Para ejecutar este proyecto en tu máquina local, sigue estos pasos:
 
 La galería muestra las imágenes en la parte superior, cuando se hace clic sobre alguna de las miniaturas de abajo. A continuación, se muestra una captura de pantalla del funcionamiento del proyecto:
 
-
+![Captura de Pantalla del Proyecto](src/assets/img/draw7.png)
 ## Contribuciones
 
 > [!TIP]
